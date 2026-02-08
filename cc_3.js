@@ -17,3 +17,16 @@ let customers = [
 }
 ]
 
+customers.push({
+    name: "Alex",
+    email: "alex.ronald@gmail.com",
+    purchases: ["t-shirt", "shorts", "sandals"] 
+})
+
+customers.shift({
+    name: "Jason",
+    email:"jason.ramirez@gmail.com",
+    purchases: ["shoes", "pants", "socks"]
+})
+
+console.log(customers);
